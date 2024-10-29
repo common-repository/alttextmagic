@@ -1,0 +1,47 @@
+.alt-text-magic-nav-link.alt-text-magic-start-btn {
+    border: none;
+    border-radius: 5px;
+    background: #6260f6;
+    border: 2px solid #6260f6;
+    color: #fff !important;
+    padding: 0.5rem 1rem;
+    display: inline;
+    transition: 1s background;
+}
+
+.alt-text-magic-nav-link.alt-text-magic-start-btn:hover,
+.alt-text-magic-nav-link.alt-text-magic-start-btn:focus {
+    background: #28279b;
+}
+
+.alt-text-magic-nav-link.alt-text-magic-outline-btn {
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #6260f6;
+    background: #fff;
+    color: #6260f6 !important;
+    padding: 0.5rem 1rem;
+    display: inline;
+    transition: 0.3s background;
+}
+
+.alt-text-magic-nav-link.alt-text-magic-outline-btn:hover,
+.alt-text-magic-nav-link.alt-text-magic-outline-btn:focus {
+    background: #eaeaf5;
+    cursor: pointer;
+}
+
+.alt-text-magic-nav-link:disabled {
+    background: #b9b9c4;
+    border-color: #b9b9c4;
+}
+
+.alt-text-magic-nav-link:hover:disabled {
+    background: #b9b9c4;
+    border-color: #b9b9c4;
+}
+
+.alt-text-magic-media-change-alt-text-btn.alt-text-magic-outline-btn {
+    border-color: #222 !important;
+    color: #222 !important;
+}
